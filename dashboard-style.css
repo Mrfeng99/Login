@@ -1,0 +1,60 @@
+/* CSS khusus Dashboard */
+.main-card {
+	display: flex;
+	flex-direction: column !important;
+	align-items: center;
+	padding: 30px;
+	height: auto !important;
+}
+
+/* Mengubah warna 'Halo' agar terlihat jelas */
+h2 {
+	text-align: center;
+	color: #000000;
+	margin: 10px 0 !important;
+	font-weight: 700;
+	font-size: 1.8rem;
+	display: block !important;
+ /* Memastikan teks muncul */;
+}
+
+/* Mengatur teks 'Dashboard Admin' agar muncul di bawah Halo */
+.main-card p {
+	text-align: center;
+	color: #475569 !important;
+ /* Warna abu-abu gelap agar kontras */
+	font-size: 1rem;
+	margin-bottom: 20px;
+	display: block !important;
+}
+
+/* Kotak Statistik: Menempatkan Angka & Teks tepat di TENGAH */
+.stat-container {
+	background: #f8fafc !important;
+	width: 100%;
+	padding: 20px;
+	border-radius: 12px;
+	margin: 20px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+ /* Tengah secara Horizontal */
+	justify-content: center;
+ /* Tengah secara Vertikal */
+	border: 1px solid #e2e8f0;
+}
+
+/* Gaya Angka (Misal: 9) */
+.stat-container h3 {
+	margin: 0;
+	color: #4f46e5 !important;
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+/* Gaya Teks di bawah angka */
+.stat-container span {
+	color: #64748b;
+	font-size: 0.9rem;
+	margin-top: 5px;
+}

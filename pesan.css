@@ -1,0 +1,107 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	background-color: #f1f5f9;
+}
+
+.pesan-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 20px;
+}
+
+.container-pesan {
+	background: white;
+	width: 100%;
+	max-width: 600px;
+ /* Lebar ideal desktop */
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.pesan-header {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.pesan-header h2 {
+	color: #1e1b4b;
+	margin: 0;
+	font-weight: 700;
+}
+
+.pesan-header p {
+	color: #94a3b8;
+	font-size: 0.85rem;
+	margin-top: 5px;
+}
+
+/* Pengaturan Tabel Pesan */
+.table-container {
+	overflow-x: auto;
+	border: 1px solid #f1f5f9;
+	border-radius: 12px;
+}
+
+.table-pesan {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table-pesan th {
+	background: #f8fafc;
+	color: #4f46e5;
+	padding: 12px 15px;
+	text-align: left;
+	font-size: 0.75rem;
+	letter-spacing: 1px;
+}
+
+.table-pesan td {
+	padding: 15px;
+	border-bottom: 1px solid #f1f5f9;
+	vertical-align: top;
+}
+
+.user-badge {
+	background: #eef2ff;
+	color: #4f46e5;
+	padding: 4px 10px;
+	border-radius: 6px;
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+.text-konten {
+	color: #475569;
+	font-size: 0.9rem;
+	line-height: 1.5;
+}
+
+.pesan-footer {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.pesan-footer a {
+	text-decoration: none;
+	color: #4f46e5;
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+/* Mode mobile */
+@media (max-width: 480px) {
+	.container-pesan {
+		padding: 20px;
+	}
+
+	.table-pesan th, .table-pesan td {
+		padding: 10px;
+	}
+}

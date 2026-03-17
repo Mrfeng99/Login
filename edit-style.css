@@ -1,0 +1,76 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: 'Segoe UI', sans-serif;
+	background-color: #f1f5f9;
+}
+
+.edit-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 20px;
+}
+
+.edit-card {
+	background: white;
+	width: 100%;
+	max-width: 400px;
+	padding: 30px;
+	border-radius: 16px;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+	text-align: center;
+}
+
+.edit-card h2 {
+	color: #1e1b4b;
+	margin-bottom: 5px;
+}
+
+.edit-card p {
+	color: #64748b;
+	font-size: 0.9rem;
+	margin-bottom: 25px;
+}
+
+.input-field {
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.input-field label {
+	display: block;
+	font-size: 0.85rem;
+	margin-bottom: 5px;
+	color: #475569;
+}
+
+.input-field input {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #e2e8f0;
+	border-radius: 8px;
+	box-sizing: border-box;
+	background: #f8fafc;
+}
+
+.btn-update {
+	width: 100%;
+	padding: 12px;
+	background: #f59e0b;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.btn-cancel {
+	display: block;
+	margin-top: 15px;
+	color: #94a3b8;
+	text-decoration: none;
+	font-size: 0.85rem;
+}
