@@ -3,7 +3,7 @@ session_start();
 include "koneksi.php";
 
 // Jika tidak ada session user, lempar ke login.php
-if (!isset($_SESSION['nama'])) { // Ganti 'username' sesuai nama session login kamu
+if (!isset($_SESSION['nama'])) {
     header("Location: login.php");
     exit;
 }
