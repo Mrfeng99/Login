@@ -4,7 +4,7 @@ include "koneksi.php";
 
 // Proteksi Login: Jika tidak ada session user, tendang ke login.php
 if (!isset($_SESSION['nama'])) { 
-    // Pastikan 'username' sesuai dengan nama session saat login
+    // Pastikan 'email' sesuai dengan email session saat login
     header("Location: login.php");
     exit;
 }
