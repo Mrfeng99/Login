@@ -1,9 +1,7 @@
-/* Reset Dasar */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
- /* */
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -29,7 +27,7 @@ body {
 	overflow: hidden;
 }
 
-/* Bagian Kiri (Desktop Only) */
+/* Bagian Kiri (Mode Desktop) */
 .left-section {
 	flex: 1.1;
 	background: #f3f0ff;
@@ -98,7 +96,7 @@ body {
 	margin-bottom: 25px;
 }
 
-/* Input Styling */
+/* Input Style */
 .input-group {
 	margin-bottom: 20px;
 }
@@ -126,7 +124,7 @@ body {
 	background: #fff;
 }
 
-/* Password Box & Eye Icon */
+/* Password Box & Ikon Mata */
 .pass-box {
 	position: relative;
 }
@@ -144,7 +142,7 @@ body {
 	color: #4f46e5;
 }
 
-/* Button Login */
+/* Tombol Login */
 .btn-login {
 	width: 100%;
 	padding: 12px;
@@ -265,7 +263,7 @@ td {
 }
 
 
-/* Responsif Mobile */
+/* Mode Mobile */
 @media (max-width: 850px) {
 	.main-card {
 		flex-direction: column;
